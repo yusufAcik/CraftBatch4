@@ -1,0 +1,13 @@
+
+
+        for, while, do while birbirinin yerine kullanılabilir
+        arada ince nüanslar var
+
+        bir döngüyü belirli bir sayıda döndürmek istiyorsak
+        for döngüsü
+
+        ne kadar döneceğini bilmiyorsak while
+
+        ne kadar döneceğini bilmiyor
+        ama ilk soruyu kullanıcıya sormak istiyorsak
+        döngü en az bir kez dönsün istiyorsak do while

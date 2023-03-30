@@ -1,0 +1,37 @@
+Day 13 For Loops
+Review
+Single if: for one condition
+if(Condition){
+    StatementA
+}
+if & else: when there are only two option/possibilities ( not more not
+less than 2 condition)
+        if(Condition){
+        StatementA
+        }else{ // otherwise
+StatementB
+}
+StatementA: if condition MUST be true
+StatementB: if condition MUST be false
+Yes or No
+Enligible or not eligible
+
+Multi-branch if: when there are three or more option/possibilities
+        if(Condition1){
+                StatementA
+            }else if(Condition2){
+        StatementB
+            }else{
+                StatementC
+        }
+ONLY one block gets executed
+StatementA: Condition1 MUST be true
+StatementB: Condition1 MUST be false, Condition2 MUST be
+true
+StatementC: Condition1 & Condition2 MUST be false
+
+Ternary Operator: (condition) ? (return if true) : (return if false);
+                     num%2=0  ?  "çift sayı"     :  "tek sayı"
+                     true           "çift sayı"
+                     false                             "tek sayı"
+                     (condition) ? (return if true) : (new ternary)
