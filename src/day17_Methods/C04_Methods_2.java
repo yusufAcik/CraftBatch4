@@ -1,10 +1,8 @@
 package day17_Methods;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
-public class C04_Metods_2 {
+public class C04_Methods_2 {
 
     public static void main(String[] args) {
 
@@ -24,7 +22,9 @@ public class C04_Metods_2 {
         isimYaz("yusuf");
         System.out.println("-----------------");
         ort(55,77);
-    }
+    }/**
+    * metodun açıklamasını buraya yazabiliriz
+    */
     public static void aritmetikOrtalama(){
         double x=3, y=5, z=10;
         double result = (x+y+z)/3;
