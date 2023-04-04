@@ -14,6 +14,10 @@ public class C08_Task {
         System.out.println(makePositive(-33));
         System.out.println("------------------");
         System.out.println(degree(66, 77, 90));
+        System.out.println("------------------");
+        System.out.println("primeNumber(23) = " + primeNumber(23));
+        System.out.println("primeNumber(55) = " + primeNumber(55));
+        System.out.println(primeNumber(0));
     }
 
     /**
@@ -66,11 +70,21 @@ public class C08_Task {
         return isEqual;
     }
 
-   /* public static boolean asalMi (int x){
-        boolean isPrimeNumber = false;
-        if
+   public static boolean primeNumber (int number){
+        boolean prime = true;
+        if (number>1){
+            for (int i = 2; i < number ; i++) {
+                if (number%i==0){
+                    prime = false;
+                    break;
+                }else{
+                    prime=true;
+                }
+            }
+        }
+        return prime;
     }
-*/
+
     /**
      * a method that makes the negative numbers positive
      * @param x
