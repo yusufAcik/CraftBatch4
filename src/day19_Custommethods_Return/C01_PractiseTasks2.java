@@ -63,7 +63,7 @@ public class C01_PractiseTasks2 {
 
     /**
      * a method named printEachChar
-     * that can print each characters of a string
+     * that can print each character of a string
      * @param str
      */
     public static void eachCharInString(String str){
