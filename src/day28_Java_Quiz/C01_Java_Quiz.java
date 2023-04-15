@@ -8,7 +8,7 @@ public class C01_Java_Quiz {
 
         System.out.println("-----------------");
 
-        vkiSonuc(vki(90,186));
+        vkiSonuc(vki(87,186));
 
         System.out.println("-------------------");
 
@@ -29,10 +29,12 @@ public class C01_Java_Quiz {
 
         System.out.println("--------------------");
 
-        System.out.println(ayniMi("ayna", "aynı"));
-
+        System.out.println(ayniMi("Ayna", "ayna"));
 
     }
+    //1.d,2.b,3.a,4.f,5.a,6.c,7.d,8.b,9.d,10.b,
+
+
 
     // başlama 21:10  1.d, 2.b, 3.a, 4.b doğru cevap f, 5.a, 6.c, 7.c doğru cevap d,
     // 8.a cevap b, 9.d, 10.d doğru cevap b,
@@ -119,22 +121,14 @@ public class C01_Java_Quiz {
             if (result.equalsIgnoreCase(str)) return true;
         }
         return sonuc;
+        // ternary ile return str.equals(result) ? true : false;
     }
 
     //  7.equalsIgnorecase() metodunu kullanmadan girilen 2 string türündeki değeri
     //büyükküçük harfleri baz almadan kontrol eden bir metot yazınız.
 
     public static boolean ayniMi (String str, String str2){
-        boolean result=false;
-
-            if (str.length()!=str2.length())
-                result= false;
-
-        for (int i = 0; i < str.length(); i++) {
-            if (str.substring(i,i+1).equals(str2.substring(i,i+1)))
-                result=true;
-        }
-        return result;
+        return str.toLowerCase().equals(str2.toLowerCase());
     }
 }
 
