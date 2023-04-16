@@ -53,7 +53,7 @@ public class StringLabCont {
 
     }
 
-    // Kullanıcıdan bir kelime alın ve kin kelimesi başından veya ilk karakterden sonra
+    //Soru 8 Kullanıcıdan bir kelime alın ve kin kelimesi başından veya ilk karakterden sonra
     //gelip gelmediğini kontrol edin geliyorsa true gelmiyorsa false döndürün;
     //Kinlenmek true
     //Kin tutmak true
@@ -93,7 +93,7 @@ public class StringLabCont {
         return str.substring(0,target.length()+1).contains(target);
     }
 
-    // Kullanıcıdan 2 kelime alın kısa kelime yi başta 2 defa uzun kelimeyi ortada 30
+    // Soru 9 Kullanıcıdan 2 kelime alın kısa kelime yi başta 2 defa uzun kelimeyi ortada 30
     //defa kısa kelimeyi tekrar sonda 2 defa yazdıran metodu yazınız.
     //Mehmet
     //Ali
@@ -133,7 +133,7 @@ public class StringLabCont {
 
     }
 
-    // Kullanıcıdan bir kelime veya söz alın ve ilk 5 karakterini yazdırın. 5 karakterin
+    // Soru 10 Kullanıcıdan bir kelime veya söz alın ve ilk 5 karakterini yazdırın. 5 karakterin
     //altında bir kelime girdiği taktirde 5 karaktere nokta ile tamamlayın.
     //Sabun Sabun
     //Merhaba Merha
@@ -165,7 +165,7 @@ public class StringLabCont {
         }
         return str;
     }
-    // Kullanıcıdan bir kelime alın ve bu kelimenin ilk 2 harfi sonunda yer alıyorsa true
+    // Soru 11 Kullanıcıdan bir kelime alın ve bu kelimenin ilk 2 harfi sonunda yer alıyorsa true
     //almıyorsa false yazdırın.
     //Ankara false
     //Kafka true
@@ -177,7 +177,7 @@ public class StringLabCont {
         return str.substring(0,number).equalsIgnoreCase(str.substring(str.length()-number));
     }
 
-    // Kullanıcının konsoldan ad ve soyad bilgilerini konsoldan alın
+    // Soru 12 Kullanıcının konsoldan ad ve soyad bilgilerini konsoldan alın
     //Ekrana "Soy isminiz ..(soyad).. dır." Yazan metodu yazınız.
     //İnput: "Harun Özsoy "
     //Output: "Soy isminiz Özsoy dır."
@@ -237,7 +237,7 @@ public class StringLabCont {
         return"soy isminiz: "+str.substring(str.lastIndexOf(" ")+1);
     }
 
-    // Kullanıcıdan bir dize sözcük alın ve yinelenen her karakteri kelimenizden
+    // Soru 13 Kullanıcıdan bir dize sözcük alın ve yinelenen her karakteri kelimenizden
     //çıkartarak sonuç döndüren metodu yazınız. (Büyük küçük duyarlı)
     //Merhaba Merhab
     //Ananas Anas

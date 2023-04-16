@@ -64,7 +64,7 @@ public class String_Lab {
 
     }
 
-    // girilen stringin ilk 3 harfini döndüren method
+    // Soru 1. girilen stringin ilk 3 harfini döndüren method
 
     public static String ilkUcHarf (String str){
         if (str.length()>=3){
@@ -73,13 +73,13 @@ public class String_Lab {
         return str;
     }
 
-    // girilen her boşluğa % ibaresi ekleyin
+    // Soru 2 girilen her boşluğa % ibaresi ekleyin
 
     public static String yuzdeEkle (String str){
         return str.replace(" ","%");
     }
 
-    // kullanıcının girdiği eşit uzunluktaki bir
+    // Soru 3 kullanıcının girdiği eşit uzunluktaki bir
     // kelimenin 2. yarısını döndüren method
 
     public static String ikinciYari (String str){
@@ -95,7 +95,7 @@ public class String_Lab {
     // Math.ceil double değeri en yakın üst
     // int değere eşit double değere tamamlar (4.5 i 5.0 a gibi)
 
-    // kullanıcıdan bir kelime ile değiştirmek istediği harfi/harfleri
+    // Soru 4 kullanıcıdan bir kelime ile değiştirmek istediği harfi/harfleri
     // alan ve ilk gördüğü harfi değiştiren method
     // (Merhaba  a,e)->Merheba  gibi
 
@@ -133,7 +133,7 @@ public class String_Lab {
 
     }
 
-    // kullanıcıdan bir kelime alın ve her harfi 3 er defa yazdırın
+    // Soru 5 kullanıcıdan bir kelime alın ve her harfi 3 er defa yazdırın
 
     public static String herHarfx3(String str){
         String result="";
@@ -177,7 +177,7 @@ public class String_Lab {
         return result;
     }
 
-    // kullanıcıdan bir kelime ve bir karakter alıp
+    // Soru 6 kullanıcıdan bir kelime ve bir karakter alıp
     // o karakterin kelimede kaç tane olduğunu bulalım
     // büyük küçük harf göz ardı edilecek
     // Ankara, a ->3; Edirne, e -> 2
@@ -225,7 +225,7 @@ public class String_Lab {
         return startLength-finalLength;
     }
 
-    // bir kelime ve bir harf alın; kelimeyi harflerden
+    // Soru 7 bir kelime ve bir harf alın; kelimeyi harflerden
     // arındırılmış şekilde yazın
 
     public static String harfEksilt (String str, char harf){
