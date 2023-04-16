@@ -54,7 +54,11 @@ public class Tasks {
 
         System.out.println("--------------------------");
 
-        System.out.println(harfSayilariBasa("Merhaba"));
+        System.out.println(harfSayilariBasa("Seni seviyorum"));
+
+        System.out.println("--------------------");
+
+        System.out.println(enCokTekrarEdenHarf("eeemmmsssssssssshhhhhhhhhssseeeeeeeeeeeeee"));
 
     }
 
@@ -351,18 +355,35 @@ public class Tasks {
 
     public static String harfSayilariBasa(String str){
         String result="";
-        str=str.toLowerCase();
-        int harfAdet=1;
+        str=str.toLowerCase().replace(" ","");
 
-        while (str.length()>0) {
-            for (int i = 0; i < str.length(); i++) {
-                if (str.substring((1)).contains(str.charAt(0)+"")){
-                    harfAdet++;
-                }
-                result+=harfAdet+""+str.charAt(0)+"";
-                str=str.replace(str.charAt(0)+"","");
 
-           }
+    while (str.length()>0) {
+            String ch=str.charAt(0)+"";
+            int finalLength=str.length()-str.replace(ch,"").length();
+            result+=""+finalLength+ch;
+            str=str.replace(ch,"");
+}
+        return result;
+    }
+
+    // Soru 29
+    // Kullanıcıdan bir dize sözcük alın ve en çok harfi döndüren metodu yazınız.
+    //Merhaba a
+    //aaaaaaabbcccc a
+    //eeemmmsssssssssshhhhhhhhhsss s
+
+    public static char enCokTekrarEdenHarf(String str){
+        char result=str.charAt(0);
+        int chCount=0;
+        int araCount=0;
+        while (str.length()>0){
+            char ch=str.charAt(0);
+            chCount=str.length()-str.replace(ch+"","").length();
+            if(chCount>araCount) {
+                result=ch;}
+            str=str.replace(ch,' ').replace(" ","");
+            if (chCount>araCount) araCount=chCount;
         }
         return result;
     }
