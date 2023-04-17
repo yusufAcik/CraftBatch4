@@ -2,7 +2,7 @@ package day27_String_Lab_Cont;
 
 import java.util.Scanner;
 
-public class Tasks {
+public class StringLabTask {
     public static void main(String[] args) {
 
         String str = "Kinlenmek";
