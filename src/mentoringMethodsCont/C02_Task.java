@@ -1,4 +1,4 @@
-package methodsCont;
+package mentoringMethodsCont;
 
 public class C02_Task {
 

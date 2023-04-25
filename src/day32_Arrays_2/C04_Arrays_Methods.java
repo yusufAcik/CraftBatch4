@@ -31,6 +31,15 @@ public class C04_Arrays_Methods {
 
         System.out.println(Arrays.toString(arrayToplamVeCarpim(array1)));
 
+        arrayYazdir(array);
+
+        System.out.println();
+
+        arrayYazdir(arrayBirlestir(array1,array2));
+        System.out.println();
+        arrayYazdir(arrayBirlestir2(array1,array2));
+
+
     }
 
     public static String[] kelimeDepola() {
@@ -119,18 +128,79 @@ public class C04_Arrays_Methods {
         yeniArray[1] = carpim;
         return yeniArray;
     }
-}
+
+    // array yazdırma methodu
+
+    public static void arrayYazdir (int[]arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(i==arr.length-1){
+                System.out.print(arr[i]);
+            }else
+                System.out.print(arr[i]+"-");
+        }
+    }
+    public static void arrayYazdir (double[]arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(i==arr.length-1){
+                System.out.print(arr[i]);
+            }else
+                System.out.print(arr[i]+"-");
+        }
+    }
+
+    public static void arrayYazdir (String[]arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(i==arr.length-1){
+                System.out.print(arr[i]);
+            }else
+            System.out.print(arr[i]+"-");
+        }
+    }
+
+    public static void arrayYazdir (char[]arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(i==arr.length-1){
+                System.out.print(arr[i]);
+            }else
+                System.out.print(arr[i]+"-");
+        }
+    }
+    public static void arrayYazdir (boolean[]arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(i==arr.length-1){
+                System.out.print(arr[i]);
+            }else
+                System.out.print(arr[i]+"-");
+        }
+    }
 
     // verilen 2 array i birleştirme
-/*
+
     public static int[] arrayBirlestir(int[] arr1,int[] arr2){
         int[] yeniArray=new int[arr1.length+arr2.length];
         for (int i = 0; i < arr1.length; i++) {
             yeniArray[i]=arr1[i];
         }
+        int j=0;
         for (int i = arr1.length ; i < yeniArray.length ; i++) {
-            yeniArray[i]
+            yeniArray[i]=arr2[j];
+            j++;
         }
+        return yeniArray;
     }
+    // aynı methodu daha kısa yazalım
+
+    public static int[] arrayBirlestir2(int[] arr1,int[] arr2){
+        int[] yeniArray=new int[arr1.length+arr2.length];
+        for (int i = 0, j=0; i < yeniArray.length; i++) {
+            if(i<arr1.length){
+            yeniArray[i]=arr1[i];
+        }else {
+             yeniArray[i]=arr2[j];
+             j++;
+            }
+        }
+        return yeniArray;
+    }
+
 }
-        */

@@ -1,4 +1,4 @@
-package StringClass;
+package mentoringStringClass;
 
 public class ConcatVersusPlus {
     public static void main(String[] args) {

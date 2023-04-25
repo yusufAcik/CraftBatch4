@@ -1,6 +1,5 @@
-package LogicalOperators_IfStatements;
+package mentoringLogicalOperators_IfStatements;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task {

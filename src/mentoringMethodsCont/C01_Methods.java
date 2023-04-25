@@ -1,4 +1,4 @@
-package methodsCont;
+package mentoringMethodsCont;
 
 import java.util.Scanner;
 

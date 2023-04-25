@@ -1,4 +1,4 @@
-package LogicalOperators_IfStatements;
+package mentoringLogicalOperators_IfStatements;
 
 public class LogicalOperators {
 
