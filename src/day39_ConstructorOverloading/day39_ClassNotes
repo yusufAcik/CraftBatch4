@@ -1,0 +1,33 @@
+
+    Constructor Overloading
+
+    Review:
+    Constructor: A special method
+
+    Class Car(){
+
+    String model;
+    }
+
+    Syntax: Access-Modifier - ClassName(String k){
+        model=k  //
+        }
+
+    Syntax: Access-Modifier - ClassName(String model){
+    this model=  // class parametresi ile obje parametresi aynı ise this kullanılır
+    }
+
+    use for creating objects
+    instantiate
+
+    this.   : to call instance variables, or instance methodu
+    this() : used for calling constructor
+
+
+    Constructor Call:
+        1. Constructors cannot be called by its name --> this() need to be used
+        2. Only a constructor can call another constructor
+        3. Constructor must be called first, should be on the first step
+        4. One constructor can not call more than one constructor
+        5. Constructor cannot call itself
+
