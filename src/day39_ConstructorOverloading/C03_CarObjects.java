@@ -22,6 +22,13 @@ public class C03_CarObjects {
         System.out.println("car3.model = " + car3.model);
         System.out.println("car3 = " + car3);
         System.out.println("Car.renkSec(car3,\"kırmızı\") = " + Car.renkSec(car3, "kırmızı"));
+        System.out.println(car3);
+        Car.renkSec(car3,"sarı"); // methodlar herhangi bir yerde olabilir
+                                    // istediğimiz yerden çağırabiliriz
+        System.out.println(car3);
+
+        Car car4=new Car("BMW","M6","Siyah",300,true);
+        System.out.println("car4 = " + car4);
     }
 
 }

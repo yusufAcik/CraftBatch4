@@ -1,7 +1,7 @@
 package day39_ConstructorOverloading;
 
 public class Car {
-    String marka;
+    String marka;   // başına public yazmayınca erişim default oluyor
     String model;
     String renk;
     int hiz;
