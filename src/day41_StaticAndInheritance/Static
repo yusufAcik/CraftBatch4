@@ -1,0 +1,6 @@
+
+
+        Static
+        class içinde statik bir variable tanımlanmışsa
+        o variable ın tek bir kopyası oluşacak ve classın
+        tüm nesneleri arasında paylaşılacak (öğrenci klasında okul adı gibi)
