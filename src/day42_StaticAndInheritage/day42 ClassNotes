@@ -1,0 +1,30 @@
+
+
+    1. Methodlar
+    2. variable lar
+    3. Class lar
+    4. bloklar    STATIK OLABİLİR
+
+    INHERITANCE
+    Parent - Child miras ilişkisi
+    Is a relationShip
+    isterse mirasın hepsini isterse bir kısmını isterse hiç bir kısmını
+    Child Klass özellikleri=parent klasstan izin verilen özellikler + kendine has özellikleri
+
+    Multi-Inheritance yapılamaz -> bir çocuğun bir annesi olur
+
+    ANIMAL CLASS  super Class  -  Parent Class  -  Base Class
+
+    BIRD CLASS      sub Class  -  Child Class   -  Derived Class
+
+    * public olan tüm metod ve variable lar inherited olabilir
+    * protected metod ve variable lar da inherited olabilir
+    * default method ve variable lar aynı package içinde inherited olabilir
+    * constructor lar inherited olamaz
+    *prirvate metod ve variable lar inherited olamaz
+     ancak getter ve setter metodları ile erişilebilir.
+
+
+     *** inheritance ilişkisi varsa
+      parent class constructor daima önce execute olur
+      parentclass ta zorunlu parametre varsa tanımlamak gerekir

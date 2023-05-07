@@ -11,11 +11,9 @@ public class Car {
     boolean isSuv;
     boolean isManuel;
     private final String sifre="yusuf";
-
+    // final olduğu için class içinde dahi değiştirilemez
     static int tekerlekSayisi=4; // Car sınıfındaki tüm araçlara otomatik atandı
 
-
-    // final olduğu için class içinde dahi değiştirilemez
 
     // kullanıcı yeni bir obje oluştururken
     // kolaylık olması için constructor oluşturuyoruz

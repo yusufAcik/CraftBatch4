@@ -9,6 +9,10 @@ public class ArraysMethod {
         int[] dizi1={1,2,3};
         int[] dizi2={1,2,3};
 
+        float f=3.14f;
+        String str="abc";
+                str.valueOf(f);
+
         int[] plakalar = {1, 4, 34, 56, 47, 6, 35};
 
         String names[]={"Ali","Veli","Ahmet","Mehmet"};

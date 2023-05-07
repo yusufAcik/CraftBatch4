@@ -1,0 +1,7 @@
+
+
+    OVERRIDING METHODS
+
+    Üst sınıftan gelen metod alt sınıfa yetersiz geldiğinde
+    alt sınıfa özel bir metod yazılarak üst sınıftaki metod geçersiz kılınır.
+    üst sınıfın metodu bypass edilerek alt sınıfa özel bir metod yapılır
