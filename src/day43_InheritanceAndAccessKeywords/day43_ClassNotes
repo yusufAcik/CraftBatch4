@@ -5,3 +5,62 @@
     Üst sınıftan gelen metod alt sınıfa yetersiz geldiğinde
     alt sınıfa özel bir metod yazılarak üst sınıftaki metod geçersiz kılınır.
     üst sınıfın metodu bypass edilerek alt sınıfa özel bir metod yapılır
+
+    Method Override Kuralları
+    1. iki sınıf arasında is-A ilişkisi olmalı(Parent-Child)
+    2. metodlar aynı isimde olmalı
+    3.    "      "   parametreye sahip olmalı
+    4. Access modifier lar aynı veya child da daha görünür olmalı
+        public -> public
+        protected -> protected, public
+        default -> default,protected, public
+    5. Return type aynı veya bir alt sınıf olmalı
+        return type class objesi de olabilir
+
+       METHOD OVERLOADING                           METHOD OVERRIDING
+       Aynı sınıf içinde yapılır.                   Is-A ilişkisi olan 2 farklı sınıfta yapılır.
+       Metod parametresi farklı.                    Metod parametresi aynı.
+       Access modifier değişebilir.                 Access modifier daha kısıtlayıcı olamaz.
+       Private ve final mtdlr da ovrldng olablr.    Private ve final metodlar ovrriding olamaz.
+       Return type önemli değil.                    Return type aynı veya covaryant olabilir.
+                                                    (Covaryant=same class type or sub class type)
+
+
+    Super keyword
+
+    üst sınıf nesnelere başvurmak için kullanılır (variable,method,constructor)
+    aynı sınıfta this kullanılır
+
+    ACCESS MODIFIERS
+
+    public ->  her yerden erişilebilir
+                class lar ya public olur ya da default
+                (yani class önünü boş bırakırız)
+                variable,method ya da constructor lar
+                4 erişim belirleyicisinden birine sahip olabilir
+
+    protected -> aynı paket içerisinden veya farklı paket içerisindeki
+                 alt sınıflar (extends ile) erişebilir.
+
+    default -> herhangi bir erişim belirleyici ile belirtilmeyen
+               sınıf, değişken ve metodlar default olarak kabul edilir
+               ve yalnızca aynı paket içerisinden erişilebilir.
+
+    private -> tanımlı olduğu sınıf dışında hiçbir sınıf
+               private değişken ve metodlara erişemez.
+               Sınıflar private olarak tanımlanamaz.
+
+
+    *** Java daki tüm sınıflar doğrudan veya dolaylı olarak
+        Object sınıfını extend eder.
+        -equals(), toString(), notify(),  gibi metodlar burdan gelir
+
+
+
+
+
+
+
+
+
+

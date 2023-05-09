@@ -1,0 +1,46 @@
+
+
+
+        static değişken ve bloklar classta sadece ilk obje oluşturulurken çalışır.
+        tekrar çağırılana kadar beklerler.
+
+        *** final class ların child ı olmaz hiçbir class ona extend edemez
+
+        *** instance variable lar override edilemez ancak gizlenebilir
+        *** statik metod lar override edilemez ancak gizlenebilir
+
+        Method Hiding
+
+        override kurallarıyla - işlemiyle aynı fakat ismi farklı.
+        -isim aynı ve ikisi de static olmalı
+        -metod parametresi aynı
+        -access modifier daha kısıtlayıcı olamaz
+        -return type aynı veya covaryant olabilir
+
+
+        ABSTRACTION -  soyutlama
+        (genel özelliklere odaklanmak)
+        (ilgisiz şeylere odaklanmamak)
+        (kullanıcıya ilgili olmayan şeyleri göstermemek)
+        (ayrıntı konuları alt sınıflara paslamak)
+        verileri soyutlayarak kullanıcıya ihtiyaç duyduğu verileri göstermek
+        sürücünün fren ve gazı kullanması ama arka planını bilmemesi gibi
+        abstraction, fonksiyonların arkasındaki kod yapılarını saklar
+
+        *** üst sınıflardan obje oluşturmak yerine alt sınıflardan obje oluşturmak
+            tercih edilir.(Animal clasından obje oluşturmak yerine cat classından obje oluşturmak)
+
+        1.  *** hem bir class tan obje oluşturulamasın
+                hem de diğer class lar bu classı extende edebilsin
+            istersek o class ı abstract yapmamız gerekir
+
+        2.  *** alt klassları şekillendirmek için de kullanılır
+                abstract klass içinde abstract metod yazarak
+                alt klasslara bazı metodları zorunlu kılarız
+                -abstract metod yalnızca abstract klasslarda yazılır
+
+
+        *** encapsulation -> data hidig
+            abstraction   -> detailed hiding
+
+        *** class lar ve metodlar abstract olabilir

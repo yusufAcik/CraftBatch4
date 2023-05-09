@@ -12,4 +12,8 @@ public class Motorcyle extends Vehicle {
     public void start(){  // method overriding
         System.out.println("Motor çalıştı");
     }
+
+    public static Motorcyle motorsikletOlustur(){
+        return new Motorcyle();
+    }
 }
