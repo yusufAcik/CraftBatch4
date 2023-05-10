@@ -11,7 +11,7 @@
 
     OOP : Object Oriented Programming
             Encapsulation : Hiding Data by giving private access modifier
-                            use public getter&setter methods to read/write the data
+                            use public getter&setter mentoring06_methods to read/write the data
                             TO HAVE COMPLETE CONTROL OF DATA
 
                             getter : read only, public instance method

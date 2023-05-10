@@ -1,7 +1,7 @@
 Method Overloading
 
 
-   - multiple different methods sharing the same method name
+   - multiple different mentoring06_methods sharing the same method name
    - same method name, different parameters(parameter datatype, parameter number)
    - Return type, access modifiers, specifiers can be same different
 

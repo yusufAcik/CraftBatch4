@@ -1,0 +1,15 @@
+
+
+
+
+        INTERFACE
+        (implements keyword ü ile kullanılır)
+
+        Bir klas ın blueprint i
+        Abstraction sağlamanın ikinci yolu
+        *Multiple Inheritance* sağlar
+        Interface den nesne üretilmez
+
+        * interface içine yazılan normal metod public abstract olarak compile edilir.
+            (çünkü interface içinde abstract class olmak zorunda)
+        * interface içine yazılan variable public static final olarak compile edilir.

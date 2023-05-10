@@ -2,8 +2,8 @@
 Constructors
     Review
         Wrapper Class
-            1. parse methods: converts String to primitive
-            2. valueOf methods: converts String to wrapper class
+            1. parse mentoring06_methods: converts String to primitive
+            2. valueOf mentoring06_methods: converts String to wrapper class
 
         Data Structures:
             Array: size is fixed, supports both primitives & non primitives

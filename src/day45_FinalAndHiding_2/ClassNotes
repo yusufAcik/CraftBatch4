@@ -44,3 +44,5 @@
             abstraction   -> detailed hiding
 
         *** class lar ve metodlar abstract olabilir
+
+        *** abstract metod final ve private olamaz; default ve protected olabilir.
