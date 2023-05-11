@@ -24,6 +24,7 @@
        Private ve final mtdlr da ovrldng olablr.    Private ve final metodlar ovrriding olamaz.
        Return type önemli değil.                    Return type aynı veya covaryant olabilir.
                                                     (Covaryant=same class type or sub class type)
+                                                    * method overriding deyince -> inheritance akla gelir*
 
 
     Super keyword
