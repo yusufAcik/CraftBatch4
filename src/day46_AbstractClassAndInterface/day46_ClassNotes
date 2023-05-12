@@ -8,7 +8,10 @@
         Bir klas ın blueprint i
         Abstraction sağlamanın ikinci yolu
         *Multiple Inheritance* sağlar
-        Interface den nesne üretilmez
+        #Interface den nesne üretilmez
+        #Abstract class dan da nesne üretilmez
+            ##Ancak polymorphism kullanılarak nesne üretilebilir.
+            (Animal animal=new Dog()  gibi)
 
         * interface içine yazılan normal metod public abstract olarak compile edilir.
             (çünkü interface içinde abstract class olmak zorunda)
