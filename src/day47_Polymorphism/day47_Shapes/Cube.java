@@ -4,8 +4,8 @@ public class Cube extends Shape implements Volume{
 
     private double side;
 
-    public Cube(String name, double side) {
-        super(name);
+    public Cube( double side) {
+        super("cube");
         setSide(side);
     }
 

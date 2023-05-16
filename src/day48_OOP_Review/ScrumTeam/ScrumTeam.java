@@ -1,21 +1,50 @@
 package day48_OOP_Review.ScrumTeam;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ScrumTeam {
+    public ProductOwner PO;
+    public BusinessAnalyst BA;
+    public ScrumMaster SM;
 
-    public static void main(String[] args) {
+    public ArrayList<Tester> testers = new ArrayList<>();
+    // kaç tester olduğunu bilmediğimiz için arraylist oluşturduk
+    // sayıyı bilseydik array de tanımlayabilirdik
 
-        Person person=new Person("Ahmet",30,'m');
-        System.out.println(person);
-        Employee employee = new Employee("Ahmet",30,'M',"Developer",3200,123456,"IT");
-        System.out.println(employee.age);
-        System.out.println(employee.deparmentName);
-        //  employee.salary;  salary private olduğu için buradan göremeyiz
-        // getter setter ı olmadığı için ulaşamayız (encapsulation)
+    public ArrayList<Developer> developers = new ArrayList<>();
 
-        Employee employee1 = new Employee("Ayşe",32,'F',"Developer",3300,123457,"IT");
+    public ScrumTeam(ProductOwner PO, BusinessAnalyst BA, ScrumMaster SM) {
+        this.PO = PO;
+        this.BA = BA;
+        this.SM = SM;
+    } // testers ve developers arraylist olduğu için constructor a eklemedik
 
-        employee1.work();
-        employee1.eat("Cake");
+    public void addTester(Tester tester){
+        testers.add(tester);
+    }
 
+    public void addDeveloper(Developer developer){
+        developers.add(developer);
+    }
+
+    public void addDeveloper(Developer[] developers){
+        this.developers.addAll(Arrays.asList(developers));
+    }
+
+    public void addTester (Tester [] testers){
+        this.testers.addAll(Arrays.asList(testers));
+    }
+
+    @Override
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO=" + PO +
+                ", BA=" + BA +
+                ", SM=" + SM +
+                ", testers=" + testers +
+                ", developers=" + developers +
+                '}';
     }
 }
+

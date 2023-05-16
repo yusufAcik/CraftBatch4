@@ -1,7 +1,7 @@
 package day45_FinalAndHiding_2;
 
 public abstract class Animal extends Canlilar {  // hem bu class tan obje oluşturulamasın
-                                // hem de diğer class lar bu classı extende edebilsin
+                                // hem de diğer class lar bu classı extend edebilsin
 
     // extend ettiği üst classın zorunlu metodunu içermek zorunda değil.
     // çünkü kendisi de abstract klass

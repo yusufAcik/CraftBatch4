@@ -13,6 +13,7 @@ public class C04_StringArgsExample {
             System.out.println(arg);
         }
         System.out.println("---------------------");
+
         args[0]="İsa";
         args[1]="Musa";
 

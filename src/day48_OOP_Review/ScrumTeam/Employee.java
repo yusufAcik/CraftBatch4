@@ -1,7 +1,7 @@
 package day48_OOP_Review.ScrumTeam;
 
 public class Employee extends Person{
-
+ // abstract yaparsak nesne üretemeyiz
     public String jobTitle;
 
     private double salary;

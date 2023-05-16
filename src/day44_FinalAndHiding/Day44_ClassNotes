@@ -19,10 +19,17 @@
     *** Class oluştururken boş constructor oluşturup
         private yaparsak o class tan kimse nesne oluşturamaz.
 
-    *** Public bir metodun içinde bir değişkene public access Modifier atayamayız.
+    ***  Public bir metodun içinde bir değişkene public access Modifier atayamayız.
 
     ****  primitivlerde final değişkenin değerini sabitler (String de bunlara dahil)
           non-primitivlerde (arr, arrList vs) referansları sabitler(içeriği değiştirebiliriz)
+
+
+
+
+
+
+
 
 
 
