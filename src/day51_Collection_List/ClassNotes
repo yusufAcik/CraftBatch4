@@ -1,0 +1,32 @@
+Collections
+
+    Data Structures
+        Array
+        Collection
+        Map
+
+    Array: size is fixed
+           supports both primitives-non primitives
+           supports only on type in an array
+
+    Collection: size is dynamic
+                supports ony non primitives
+                supports different types of objects
+                Collection is an interface
+
+                List :  accepts duplicates
+                         preserve put order
+                         has index numbers
+
+
+                         ArrayList : dynamic array
+                                     Accessing the data is fast (get())
+
+                         LinkedList : uses doubly linked list (previous nodes reference, data, next nodes reference)
+                                      adding/removing is faster
+                                      requires more memory size
+
+                         Vector : internally uses array
+                                  thread safe - synchronised
+
+                         Stack : LIFO  (last in first out)
