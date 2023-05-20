@@ -38,7 +38,11 @@ public class C03_List {
         System.out.println(list4);
         System.out.println("((Stack)list4).push(60) = " + ((Stack) list4).push(60));
         System.out.println("list4 = " + list4);
-
+        System.out.println("((Stack)list4).peek() = " + ((Stack) list4).peek());
+        // listenin en üstündeki (en son giren) elemanı bulur
+        System.out.println("list4 = " + list4);
+        System.out.println("((Stack<Integer>) list4).peek() = " + ((Stack<Integer>) list4).peek());
+        // list4.peek deyince otomatik downcasting yaptı
 
     }
 
