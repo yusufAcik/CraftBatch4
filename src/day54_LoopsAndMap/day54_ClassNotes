@@ -1,0 +1,10 @@
+
+
+        HashMap                      HashTable
+        ------------                 -------------------
+        Senkronize değil             Senkronize
+        Hızlı                        Yavaş
+        1 adet null key;birden       null key veya value almaz
+        fazla null value alabilir.
+        yeni                         Eski(1.0)
+
