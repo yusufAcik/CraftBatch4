@@ -1,0 +1,12 @@
+
+    1.Primitives: byte, short, int, long, float, double
+                  char, boolean
+
+    2.Primitive Type Casting: Implicit - Explicit
+
+        * implicit casting: casting a smaller primitive type to larger
+        * explicit casting: casting a larger primitive type to smaller
+
+    3.Wrapper Class : the objects that represents the primitives
+                      enables us to use primitive data types in Collections and Maps
+                      also have some useful methods

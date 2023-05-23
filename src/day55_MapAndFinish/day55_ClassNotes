@@ -1,0 +1,8 @@
+
+
+
+
+  HashMap                             LinkedHashMap
+  Herhangi bir sıralama yapmaz.       Sıralamayı korur.
+  Bellekte az yer kaplar.             Bellekte daha fazla yer kaplar.
+  JDK 2.0.                            JDK 4.0
