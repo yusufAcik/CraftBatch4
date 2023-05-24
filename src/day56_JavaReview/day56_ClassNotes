@@ -10,3 +10,67 @@
     3.Wrapper Class : the objects that represents the primitives
                       enables us to use primitive data types in Collections and Maps
                       also have some useful methods
+
+    4.String: immutable
+              "KraftTech"
+               012345678
+
+               Methods : length(), charAt(), trim(), toLowerCase(), toUpperCase(),
+                         replace(), substring(), equals(), equalsIgnoreCase(),
+                         split(), endsWith(), startsWith(), toCharArr(),
+
+    5. StringBuilder - StringBuffer
+                mutable char sequences
+                have reverse() feature
+                slower than String
+
+                StringBuilder : Not Synchronized
+                                faster than StringBuffer
+
+                StringBuffer : Synchronized
+
+    6. Loops  -> repeated actions
+
+            for : if the number of repetition is known
+                for ( initialization ; condition ; increment/decrement ){
+                    statements
+                }
+
+            while : to repeat unknown number of times
+            while (condition){
+            statements
+            }
+
+            branching statements:
+            break    : exit the loop (switch)
+            continue : jumps to the next iteration of the loop
+            return   : exits the current method
+
+    7. Arrays  :  Data structure supporting multiple variables
+                  use when multiple data is needed
+                  fast
+                  has index
+                  supports primitives and nonprimitives
+                  can be multidimensional
+                  size is fixed; cannot be used with unknown number of data
+
+    8. For each loop : iteration is fixed (from first element to last element)
+                       you don't have access to the index numbers, cannot reassign values
+                       data structure is needed to use
+
+    9. Custom Methods : Function
+                        reuseability
+                        series of code fragments for a specific task
+
+                        public static void/anyDataType methodName(){
+                         code perform the bank
+                        }
+
+    10. Method Overloading : multiple methods having same name in a class
+                             Different Parameters
+                             ( method overloading known as Static Polymorphism)
+
+
+
+
+

@@ -1,0 +1,22 @@
+JAVA REVIEW
+
+    11. Constructor : constructor name should be exact same with the class name;
+                      every class must have a constructor
+                      initialize the every single instance variable
+                      used for creating objects
+                      if we don't create a constructor; Java will create a default constructor
+                      constructor will execute whenever you create an object
+                      can be overloaded
+                      this()  --> constructor in same class
+                      must be in the first line
+                      only call one constructor
+                      super() --> can be used in child classes to call the parent's constructor
+
+    12. Class & Objects :
+                     Class : A blueprint / template for objects
+                             where objects come from
+                             you can create as many objects as you want from a class
+
+                     Objects : an instance of a class
+                               each object has its own memory
+
