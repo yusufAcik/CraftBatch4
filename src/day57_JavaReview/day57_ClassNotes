@@ -20,3 +20,65 @@ JAVA REVIEW
                      Objects : an instance of a class
                                each object has its own memory
 
+    13. Static vs Instance : one copy vs multiple copies
+
+                    static   : belongs to class
+                               can be reachable by className without creating an object
+
+                    instance : belongs to the object
+
+    14. Import Statements
+
+            regular import:
+                    import packageInfo.classInfo;
+
+            static import:
+                    import static packageInfo.classInfo.staticMember;
+
+    15. Access Modifiers:
+
+            public      : Accessible from anywhere
+            protected   : Accessible within same package. Also accessible to other package if it's a sub class
+            default     : Accessible within same package. Not accessible from outer packages.
+            private     : Accessible within same class only.
+
+    16. OOP Encapsulation   Data hiding by private access modifier
+                        use public getter/setter methods to access/read/write the data
+                        Complete Control of Data
+
+                        getter: read only, public instance method
+                                return type is same with the private variable
+                                has no parameters
+
+                        setter: Write only, public instance method
+                                return type is void
+                                Passes a parameter (the new value of the private variable)
+
+    17. OOP Inheritance : Is a relationship between classes (Parent/Child)
+                          'extends' keyword
+                          Class B extends Class A
+                          Class C extends Class B
+                          Class D extends Class C
+
+                          sub-class   : inherits the accessible variables and methods from superclass
+                                        can also have its own variables and methods
+
+                          super-class : inherits NOTHING from sub-class
+                                        can contains common variables and common methods of all child classes
+                                        can use POLYMORPHISM
+
+                          A class can extends only one class // multiple inheritance is not allowed
+                          A class can implement Multiple interfaces
+                          Without inheritance abstraction and polymorphism is NOT POSSIBLE!
+
+    18. Method Overriding
+                    Inheritance is required
+                    Different implementation to the method
+                    Must happen in Child Class
+                    Access modifier must be same or more visible
+
+    19. Final Keyword  -> fixed/unchangeable
+
+                    variable: can not be re-assigned
+                    method  : can not be overriden
+                    class   : can not be inherited

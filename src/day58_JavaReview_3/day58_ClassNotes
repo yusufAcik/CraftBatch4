@@ -1,0 +1,67 @@
+Java Review 3
+
+        20. OOP Abstraction : Hiding the implementation details
+                              focus ond the essentials not on the detail
+                              What to do instead of How to Do
+                              provldes variables and methods
+
+                              abstract methods : methods without the body
+                                                 meant to be overridden
+
+                              2 ways to use abstraction
+
+        21. Abstract Class vs Interface
+                Abstract class : meant to be parent class
+                                 include common variable, common methods
+                                 can not be instantiated
+
+                Interface      : multiple inheritance
+                                 meant to be implemented
+                                 blueprint of a class
+                                 used for providing additional methods to the classes
+                                 variables static & final
+                                 methods: abstract methods, static methods
+
+        22. OOP Polymorphism : objects can be in many forms
+                               parent class/interface can reference to its child objects
+                               reference types decides the variables and methods can be reached
+
+                               List list=
+                               Map map=
+
+        23. Reference Type Casting : inheritance, Upcasting vs Downcasting
+                 up-casting  : casting smaller type to larger (implicitly done)
+                               to be able to assign child objects to parent reference type
+
+                 downcasting : casting larger to smaller
+                               to be able to access the members of objects
+
+        24. Exceptions : checked & unchecked
+                         Errors : Errors are severe problems, usually result form external factor
+                                  not expected to be handled
+                                  due to lack of resource
+
+                         Exceptions : unexpected event, sth went wrong, can be handled/can be caught
+
+                            Checked : occurs during complete time
+                                      needs immediate attention
+
+                            Unchecked : occurs during runtime
+
+                            throw : used for creating exceptions manually
+
+        25. Exception Handling
+                        1. try & catch -> for checked & unchecked , used in a block
+
+                        try {
+                        exception code
+                        }catch (ExceptionType e){
+                        sout...
+                        e.PrintStackTrace()
+                         }finally{
+
+                        }
+
+                        2. throws : used within the method signature
+                                    only declares the method is throwing an exception, not handling it
+                                    for checked exceptions only
